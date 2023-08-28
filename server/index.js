@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://chat-app-client-zeta.vercel.app/",
+    origin: "https://chat-app-client-zeta.vercel.app",
     methods: ["GET", "POST"],
   },
 });
